@@ -1,4 +1,4 @@
-from sklear.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 
 def train_model(X,y):
