@@ -25,4 +25,4 @@ jobs:
         pytest
     - name: Test with pylint	
       run: |
-        pylint
+        pylint baseline.py
